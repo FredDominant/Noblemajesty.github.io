@@ -1,0 +1,70 @@
+body {
+	background-color: rgb(36,33,36);
+	/*background-repeat: no-repeat;*/
+	
+} 
+
+.top {
+	margin-top:10px;
+}
+
+.button {
+	border-radius: 5px;
+	background-color: #FFF8DC;
+	color: 'white';
+}
+
+input[type=text] {
+	background-color: #FFF8DC;
+	color: 'black';
+	width: 15%;
+	margin: 8px, 0;
+	border-radius: 5px;
+}
+.type {
+	color: 'black';
+}
+/*.container {
+	background-image: url('here.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}*/
+
+#firstOne {
+	background-color: #333;
+	border-radius: 0px;
+}
+
+#userOne {
+	border-radius: 30px;
+}
+
+.nigeria, .newYork, .kenya, .uganda, .london, .tokyo, .moscow, .sydney {
+	color: black;
+	font-family: 'Lucida Sans Unicode';
+	text-align: center;
+	font-size: 15px;
+	margin: 5px;
+}
+
+table {
+	/*opacity: 0.5;*/
+	/*background-color: #D4AF37;*/
+	background-image: url('latestt.jpg');
+	/*background-repeat: no-repeat;*/
+	background-size: 100%;
+	/*background-color: rgba(157,162,166,0.7);*/
+	border-radius: 25px;
+	opacity: 0.8;
+}
+ table:after{
+ 	
+ 	opacity: 0.2;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	position: absolute;
+ 	z-index: -1;
+ }
