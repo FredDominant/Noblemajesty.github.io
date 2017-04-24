@@ -4,7 +4,7 @@ function time() {
 		alert('Text field is currently empty.');
 	} else {
 			var xhttp = new XMLHttpRequest();
-			xhttp.open('GET','https://www.amdoren.com/api/timezone.php?api_key=r3m2Mzu9H24BKp4T9bBXJNUbmHuKd5&loc='+ userInput,false);
+			xhttp.open('GET','https://www.amdoren.com/api/timezone.php?api_key=z6BPpe3DqLUxcwPJH3Kxv4VKpWn72w&loc='+ userInput,false);
 			xhttp.send();
 			var response = JSON.parse(xhttp.responseText);
 			var timeZone = response['timezone'];

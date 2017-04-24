@@ -1,7 +1,7 @@
 
 const getTime = function(location) {
   var xhttp = new XMLHttpRequest();
-      xhttp.open('GET','https://www.amdoren.com/api/timezone.php?api_key=FcfzfhgbGJ54QKNBcM4FMJxcLWLfAs&loc='+ location,false);
+      xhttp.open('GET','https://www.amdoren.com/api/timezone.php?api_key=MSuJ4DVDtBJCxRP3fAdGCBgJrE7WzA&loc='+ location,false);
       xhttp.send();
       var response = JSON.parse(xhttp.responseText);
       console.log(response);
